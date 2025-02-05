@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int a = 1, b = 1, next = 0;
@@ -10,6 +9,7 @@ int main()
         if (next <= 150)
         {
             printf("%d ", next);
+            
         }
         {
             a = b;
@@ -19,6 +19,4 @@ int main()
     {
         printf("\n");
     }
-
-    return 0;
-}
+    return 0;}

@@ -16,7 +16,6 @@ int main()
                 isPrime = 0;
             }
         }
-
         if (isPrime == 1)
         {
             printf("%d ", i);
